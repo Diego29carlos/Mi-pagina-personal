@@ -9,33 +9,33 @@ function App() {
      <header className="App-header">
        <img src={logo} className="App-logo" alt="logo" />
        <p>
-         <h1>J.Diego Carlos</h1>
-       </p>
-       <form>
- <ul>
-   Nombre : <input type="text" name="name" />
-</ul>
-   <ul>
-   Apellido: <input type="text" name="name" />
-</ul>
-   <ul>
-   Correo: <input typer="text" name="name" />
-</ul>
+         <h1>Formulario</h1>
 
- <input type="Submit" value="Submit" />
- </form>
+       </p>
+
+       <form>
+         
+  <label>
+    Nombre:
+    <input type="text" name="name" />
+    Contraseña:
+    <input type="password" name="contraseña"/>
+  </label>
+  <input type="submit" value="Submit" />
+
+</form>
         <a
          className="App-link"
          href="https://app.slack.com/client/TPFSKAG8K/CSKP8MY65"
          target="_blank"
-         rel="noopener noreferrer"
-       >
+         rel="noopener noreferrer" >
+           
       <select>
  
       <option value="grapefruit">Slack</option>
       <option value="lime">Usuario</option>
-      <option selected value="coconut">Contacto</option>
-      <option value="mango">Email</option>
+      <option value="">Contacto</option>
+      <option value="">Email</option>
  
       </select>
          </a>
