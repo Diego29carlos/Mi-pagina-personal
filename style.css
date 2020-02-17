@@ -4,95 +4,58 @@ body {
     padding: 0;
   }
   .Fondo {
-    background-color: green;
+    background-color: black;
   }
-  .contenedor-huella {
+  .contenedor-foto {
     justify-content: center;
     flex-direction: row-reverse;
   
   }
-  /*Texto de inicio*/
+  
   .Textoprincipal {
     padding: 15px;
     margin: 10px;
     font-size: 25px;
     text-align: center;
     font-family: 'Overpass', sans-serif;
-    color: black;
+    color: rgb(179, 255, 0);
+  } 
+
+  .foto {
+    justify-items: center;  
   }
-  h3 {
-    font-size: 20px;
-    font-family: 'Overpass', sans-serif;
-  }
-  /*Imagen de inicio*/
-  .Imagen-inicial {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
-  }
-  .Imagen-huella {
-    justify-items: center; 
   
-  }
-  .Huella {
+  .carita {
     text-align: right;
-    color: rgb(255, 255, 255);
+    justify-content: center;
+   }
   
-  }
-  
-  /*Barra de contacto, etc*/
-  ul {
+  .ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: greenyellow;
+    background-color: black;
     font-family: 'Overpass', sans-serif;
     }
     
   li {
     float: left;
   }
-    
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-    
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-    
-  .active {
-    background-color: rgb(146, 143, 146);
-  }
-  
-  .contenedor-bateria {
-    style: width 720px;
+
+  .contenedor-carita {  
+
     justify-content: center;
+    display: center;
   
   }
   
-  .imagen-bateria {
+  .imagen-estudio {
   justify-content: center;
+  display: center;
   }
   
-  .contenedor-camara {
-    justify-content: flex-start;
-  
-  }
-  
-  .imagen-camara {
-   justify-content: flex-end; 
-   display: center;
-  
-  }
-  
-  #demo{
-    opacity: 0;
+  .contenedor-foto {
+    justify-content: center;
+    display: center;
   }
