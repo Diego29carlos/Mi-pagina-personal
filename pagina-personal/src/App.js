@@ -1,47 +1,39 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
- 
- 
+
+
+
 function App() {
  return (
    <div className="App">
      <header className="App-header">
        <img src={logo} className="App-logo" alt="logo" />
        <p>
-         <h1>Formulario</h1>
-
-       </p>
-
-       <form>
+         <h1>Resumen de mi vida</h1>  </p>
          
-  <label>
-    Nombre:
-    <input type="text" name="name" />
-    Contraseña:
-    <input type="password" name="contraseña"/>
-  </label>
-  <input type="submit" value="Submit" />
+    <h2>Mi nombre es diego, tengo 23 años naci en peru en el año 1996, vine a la argentina cuando tenia 10 años tuve una infancia algo complicada, no tuve muchas cosas pero si muchos muchos amigos/as y la verdad que fue lo mejor que me pude pasar porque me hice conocido y tambien querido el dia que me tuve q ir para viajar a la argentina todo el barrio me dio cartas ya q todos eran amigos mios sabia que era un hasta pronto y no un adios ya que volveria </h2>
 
-</form>
-        <a
-         className="App-link"
-         href="https://app.slack.com/client/TPFSKAG8K/CSKP8MY65"
-         target="_blank"
-         rel="noopener noreferrer" >
-           
-      <select>
+    <p>
+       <h1>Mis pasa tiempo</h1>
+    </p> 
+    <h2>Me gusta mucho jugar a la pelota y tambien escuchar musica cuando estoy solo...a veces (muy raras veces) me gusta leer uno que otro libro que este relacionado con la historia.</h2>
  
-      <option value="grapefruit">Slack</option>
-      <option value="lime">Usuario</option>
-      <option value="">Contacto</option>
-      <option value="">Email</option>
  
-      </select>
-         </a>
-     </header>
-    
-   </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <input/>
+  </header>
+  </div>
  );
 }
  
@@ -67,10 +59,10 @@ class NameForm extends React.Component {
    return (
      <form onSubmit={this.handleSubmit}>
        <label>
-         Name:
+
          <input type="text" value={this.state.value} onChange={this.handleChange} />
        </label>
-       <input type="submit" value="Submit" />
+       <input/>
      </form>
    );
  }

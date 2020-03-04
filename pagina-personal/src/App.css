@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: justify;
   flex-direction: row-reverse;
   border-color: lawngreen;
 }
@@ -18,7 +18,7 @@
 }
 
 .App-header {
-  background-color: fafafa;
+  background-color: black;
   min-height: 100vh;
   display: center;
   flex-direction: center;
